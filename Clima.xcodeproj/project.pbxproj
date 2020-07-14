@@ -16,6 +16,7 @@
 		ADAA27CE231BC87F00365194 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ADAA27CD231BC87F00365194 /* README.md */; };
 		B12CAC9F24B6D1900098B861 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12CAC9E24B6D1900098B861 /* WeatherManager.swift */; };
 		B147705324BCA73400D2A9A4 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B147705224BCA73400D2A9A4 /* WeatherData.swift */; };
+		B147705524BD4E6400D2A9A4 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B147705424BD4E6400D2A9A4 /* WeatherModel.swift */; };
 		B14BE87B24B4047E00D40958 /* light_background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B14BE87924B4047E00D40958 /* light_background.pdf */; };
 		B14BE87E24B4049A00D40958 /* dark_background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B14BE87D24B4049A00D40958 /* dark_background.pdf */; };
 /* End PBXBuildFile section */
@@ -32,6 +33,7 @@
 		ADAA27CD231BC87F00365194 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B12CAC9E24B6D1900098B861 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherManager.swift; path = Clima/WeatherManager.swift; sourceTree = SOURCE_ROOT; };
 		B147705224BCA73400D2A9A4 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherData.swift; path = Clima/WeatherData.swift; sourceTree = SOURCE_ROOT; };
+		B147705424BD4E6400D2A9A4 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherModel.swift; path = Clima/WeatherModel.swift; sourceTree = SOURCE_ROOT; };
 		B14BE87924B4047E00D40958 /* light_background.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = light_background.pdf; path = ../../../../.Trash/light_background.pdf; sourceTree = "<group>"; };
 		B14BE87D24B4049A00D40958 /* dark_background.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = dark_background.pdf; path = ../../../../.Trash/dark_background.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,6 +104,7 @@
 			children = (
 				B12CAC9E24B6D1900098B861 /* WeatherManager.swift */,
 				B147705224BCA73400D2A9A4 /* WeatherData.swift */,
+				B147705424BD4E6400D2A9A4 /* WeatherModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				B147705324BCA73400D2A9A4 /* WeatherData.swift in Sources */,
 				ADAA27B1231BBFAF00365194 /* AppDelegate.swift in Sources */,
 				B12CAC9F24B6D1900098B861 /* WeatherManager.swift in Sources */,
+				B147705524BD4E6400D2A9A4 /* WeatherModel.swift in Sources */,
 				ADAA27B3231BBFAF00365194 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
